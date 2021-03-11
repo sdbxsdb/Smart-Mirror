@@ -1,0 +1,172 @@
+* {
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+#smartMirrorHome {
+  height: 100vh;
+}
+
+#smartMirrorHome .card-body {
+  padding-top: 50px;
+  background-color: black;
+  outline: solid 2px black;
+}
+
+#smartMirrorHome #topRightCard {
+  text-align: right;
+}
+
+#smartMirrorHome #topRightCard p {
+  margin: 0;
+}
+
+#smartMirrorHome #topRightCard img {
+  width: 100px;
+}
+
+#smartMirrorHome #anaClock {
+  height: 250px;
+  position: relative;
+  left: 50px;
+  top: 50px;
+}
+
+#smartMirrorHome #belfastClock {
+  background-color: black;
+  border: solid 4px white;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  -webkit-transform: translate(0px, 0%);
+          transform: translate(0px, 0%);
+}
+
+#smartMirrorHome #belfastClock h2 {
+  text-align: center;
+  position: absolute;
+  font-size: 24px;
+  top: 130%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+}
+
+#smartMirrorHome #belfastClock hr {
+  border: solid 1px black;
+  width: 50px;
+}
+
+#smartMirrorHome #belfastDigi {
+  position: absolute;
+  top: 140%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 1.5em;
+  font-family: Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+#smartMirrorHome .hand {
+  width: 40%;
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  border-radius: 100px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#smartMirrorHome .handNoTran {
+  width: 40%;
+  height: 0px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  border-radius: 100px;
+}
+
+#smartMirrorHome .secHand {
+  -webkit-transition-timing-function: cubic-bezier(0.42, 0, 0.44, 1.51);
+          transition-timing-function: cubic-bezier(0.42, 0, 0.44, 1.51);
+  background-color: white;
+  border: solid 2px black;
+  height: 6px;
+}
+
+#smartMirrorHome .minHand {
+  background-color: #98d5fd;
+  border: solid 1px black;
+  width: 35%;
+  left: 15%;
+}
+
+#smartMirrorHome #belfastHourHand {
+  background-color: #53baff;
+  width: 30%;
+  left: 20%;
+}
+
+#smartMirrorHome #news {
+  margin: 20px 0;
+}
+
+#smartMirrorHome #news iframe {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  height: 500px;
+}
+
+#smartMirrorHome #weather {
+  font-size: 18px;
+}
+
+#smartMirrorHome #facts {
+  font-size: 18px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 50px;
+  width: 100%;
+}
+
+#smartMirrorHome #mirrorPart {
+  width: 100%;
+  min-height: calc(100vh - (1350px));
+}
+
+#smartMirrorHome #spotify {
+  width: 100%;
+  text-align: center;
+}
+
+#smartMirrorHome #spotify #spotifyLogo {
+  width: 100px;
+  height: 100px;
+}
+
+#smartMirrorHome #spotify #artwork {
+  width: 100px;
+  height: 100px;
+}
+
+#smartMirrorHome #spotify .hideArtwork {
+  display: none;
+}
+/*# sourceMappingURL=app.css.map */
